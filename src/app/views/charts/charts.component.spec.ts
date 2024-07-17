@@ -29,8 +29,3 @@ describe('ChartsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-export class ChartsComponents {
-
-  
-}

@@ -19,5 +19,10 @@ export const navItems: INavData[] = [
     name: 'Registrar Notas',
     url: '/widgets',
     iconComponent: { name: 'cil-pencil' }
+  },
+  {
+    name: 'comp',
+    url: '/nombre-del-componente.component',
+    iconComponent: { name: 'cil-pencil' }
   }
 ];

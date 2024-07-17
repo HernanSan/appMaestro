@@ -30,6 +30,7 @@ interface IUser {
   name: string;
   state: string;
   registered: string;
+  note: number;
   country: string;
   usage: number;
   period: string;
@@ -58,6 +59,7 @@ export class DashboardComponent implements OnInit {
       name: 'Yiorgos Avraamu',
       state: 'New',
       registered: 'Jan 1, 2021',
+      note: 0,
       country: 'Us',
       usage: 50,
       period: 'Jun 11, 2021 - Jul 10, 2021',
@@ -78,7 +80,8 @@ export class DashboardComponent implements OnInit {
       activity: '5 minutes ago',
       avatar: './assets/images/avatars/2.jpg',
       status: 'danger',
-      color: 'info'
+      color: 'info',
+      note: 1
     },
     {
       name: 'Quintin Ed',
@@ -91,7 +94,8 @@ export class DashboardComponent implements OnInit {
       activity: '1 hour ago',
       avatar: './assets/images/avatars/3.jpg',
       status: 'warning',
-      color: 'warning'
+      color: 'warning'  ,
+      note: 2
     },
     {
       name: 'Enéas Kwadwo',
@@ -104,7 +108,8 @@ export class DashboardComponent implements OnInit {
       activity: 'Last month',
       avatar: './assets/images/avatars/4.jpg',
       status: 'secondary',
-      color: 'danger'
+      color: 'danger',
+      note: 3
     },
     {
       name: 'Agapetus Tadeáš',
@@ -117,12 +122,14 @@ export class DashboardComponent implements OnInit {
       activity: 'Last week',
       avatar: './assets/images/avatars/5.jpg',
       status: 'success',
-      color: 'primary'
+      color: 'primary',
+      note: 4
     },
     {
       name: 'Friderik Dávid',
       state: 'New',
       registered: 'Jan 1, 2021',
+      note: 5,
       country: 'Pl',
       usage: 43,
       period: 'Jun 11, 2021 - Jul 10, 2021',
