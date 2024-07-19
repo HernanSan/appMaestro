@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private titleService: Title,
+    private titleService: Title, 
     private iconSetService: IconSetService
   ) {
     this.titleService.setTitle(this.title);
